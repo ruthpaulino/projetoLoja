@@ -7,16 +7,14 @@ body{
 }
 
 
-.carousel-inner {
-
-height: 100vh;
-
+.carousel-inner img{
+height: 40rem;
 }
 
 .container{
 
     min-height: 100vh;
-    min-width: 90%;
+    min-width: 80%;
  
 
 }
@@ -68,13 +66,24 @@ height: 100vh;
 
 .img-about{
 
-width: 60%;
+width: 20rem;
 border-radius: 50%;
-margin-left: 15%;
-margin-top: 10rem;
-
+margin-top: 14%;
+margin-left: 2rem;
 
 }
+
+
+
+.about-text{
+
+    color: black;
+    font-weight: none;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 15%;
+}
+
 
 .img-logo{
     width: 100%;
@@ -84,26 +93,15 @@ margin-top: 10rem;
 
 }
 
-.about h1{
-    padding-top: 10.5rem;
-}
-
-.about p{
-
-    color: black;
-    font-weight: none;
-    font-size: 1.2rem;
-}
-
-
 
 .img-avatar{
-    width: 60%;
+    width: 15rem;
     margin-left: 18%;
     border-radius: 50%;
     margin-bottom: 1rem;
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
+
 
 
 .team, .txt-team{
@@ -122,8 +120,7 @@ margin-top: 10rem;
 
 .col{
 
-    float:left;
-
+    padding-top: 2rem;
 
 }
 
